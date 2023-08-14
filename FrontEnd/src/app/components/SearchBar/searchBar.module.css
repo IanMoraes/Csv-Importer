@@ -1,0 +1,20 @@
+
+.searchBar input{
+    padding: 16px;
+    border-radius: 12px;
+    border: none;
+    width: 100%;
+}
+
+.searchBar {
+    background: rgba(var(--searchBar-rgb), 0);
+    margin: 8px 16px;
+    width: 600px;
+}
+
+
+@media (max-width: 768px) {
+    .searchBar {
+      width: 300px;
+    }
+  }

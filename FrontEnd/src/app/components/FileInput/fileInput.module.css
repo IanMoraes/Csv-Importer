@@ -1,0 +1,8 @@
+.fileInput{
+    border-radius: var(--border-radius);
+}
+.fileInput::file-selector-button{
+    padding: 16px;
+    background: "#000";
+    border: none;
+}
